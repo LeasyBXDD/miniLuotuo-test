@@ -18,7 +18,7 @@ train_dataset = TextDataset(
 
 # 设置训练参数
 training_args = TrainingArguments(
-    output_dir="./gpt2_finetuned", # 输出目录
+    output_dir="./gpt2-3.5B-HZNUwlaq", # 输出目录
     overwrite_output_dir=True, # 覆盖输出目录
     num_train_epochs=3, # 训练轮数
     per_device_train_batch_size=32, # 每个设备的训练批次大小
